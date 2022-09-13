@@ -22,7 +22,7 @@ public class WarmUp {
         System.out.println("The first animal is: " + an1);
         System.out.println("The second animal is: " + an2);
 
-        String[] argh = {"W", "Y"};
+        String[] argh = new String[2];
         argh[0] = an1;
         argh[1] = an2;
 
