@@ -19,8 +19,7 @@ public class WarmUp {
         }
         try {
             FileWriter bobby = new FileWriter("C:/Users/Toby/Desktop/Programming/CIT Projects/WarmUp9-20/textFiles/test.txt");
-            bobby.write("Yooo?");
-            bobby.write("Yooo?");
+            bobby.write("Yooo?\nTest");
             bobby.close();
             System.out.println("This did in fact work.");
         }catch (IOException e){
